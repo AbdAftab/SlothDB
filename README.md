@@ -54,7 +54,7 @@ db.sync()
 db.close()
 ```
 
-### Command Line Interface (IN PROGRESS, THIS IS JUST A DEMO)
+### Command Line Interface (IN PROGRESS)
 
 SlothDB comes with a command-line interface for interacting with the database:
 
