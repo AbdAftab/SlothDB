@@ -1,6 +1,6 @@
 # SlothDB
 
-SlothDB is a purposefully simple, terrible, and slow "database" engine.
+SlothDB is a purposefully simple, terrible, and slow "database" engine. Created for the purpose of learning new things
 
 ## Overview
 
