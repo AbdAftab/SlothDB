@@ -8,7 +8,7 @@ SlothDB is a "database" system that:
 - Stores strings as binary (bit) patterns, each bit is stored in it's own memory block (16 bytes by default)
 - Only allows for a string to start with a unique character ONCE! (This means you can't have "hello" and "hey" in the same database)
 - Continuing the above point, if a duplicate starting character is found, it gets overwritten.
-- Includes a simple query language (SlothQL) (COMING SOON)
+- Includes a simple query language (SlothQL)
 - Manages memory with a custom memory manager
 - Persists data to disk (re-writes anything on your memory to disk after every insert or deletion)
 - Uses Python
@@ -54,9 +54,9 @@ db.sync()
 db.close()
 ```
 
-### Command Line Interface (IN PROGRESS)
+### Command Line Interface
 
-SlothDB comes with a command-line interface for interacting with the database:
+SlothDB comes with a command-line interface with basic query commands:
 
 Available commands:
 
@@ -78,7 +78,7 @@ Available commands:
 \__ \ | (_) | |_| | | |
 |___/_|\___/ \__|_| |_|  
     
-SlothDB Query Interface
+SlothQL Interface
 Type HELP for available commands or EXIT to quit
 
 SlothQL> INSERT "hello"
